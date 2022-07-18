@@ -11,6 +11,8 @@
 		3B8C80522885E7D2003DE811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80512885E7D2003DE811 /* ContentView.swift */; };
 		3B8C80542885E7D3003DE811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C80532885E7D3003DE811 /* Assets.xcassets */; };
 		3B8C80572885E7D3003DE811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C80562885E7D3003DE811 /* Preview Assets.xcassets */; };
+		3B8C805E2885EEE2003DE811 /* FlagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C805D2885EEE2003DE811 /* FlagDetailView.swift */; };
+		3B8C80612885F5C3003DE811 /* FlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80602885F5C3003DE811 /* FlagViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3B8C80512885E7D2003DE811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B8C80532885E7D3003DE811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8C80562885E7D3003DE811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B8C805D2885EEE2003DE811 /* FlagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagDetailView.swift; sourceTree = "<group>"; };
+		3B8C80602885F5C3003DE811 /* FlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		3B8C804E2885E7D2003DE811 /* Modals-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3B8C805F2885F5A4003DE811 /* ViewModels */,
 				3B8C804F2885E7D2003DE811 /* Modals_SwiftUIApp.swift */,
 				3B8C80512885E7D2003DE811 /* ContentView.swift */,
 				3B8C80532885E7D3003DE811 /* Assets.xcassets */,
 				3B8C80552885E7D3003DE811 /* Preview Content */,
+				3B8C805D2885EEE2003DE811 /* FlagDetailView.swift */,
 			);
 			path = "Modals-SwiftUI";
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				3B8C80562885E7D3003DE811 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B8C805F2885F5A4003DE811 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C80602885F5C3003DE811 /* FlagViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8C80612885F5C3003DE811 /* FlagViewModel.swift in Sources */,
 				3B8C80522885E7D2003DE811 /* ContentView.swift in Sources */,
 				3B8C80502885E7D2003DE811 /* Modals_SwiftUIApp.swift in Sources */,
+				3B8C805E2885EEE2003DE811 /* FlagDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
